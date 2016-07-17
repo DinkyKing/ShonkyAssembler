@@ -15,4 +15,7 @@
  * Added QuadMaker at a game object and also made a quad with one side
  * 
  * Lighting went funny
+ * 
+ * Reorganised structure of game, through scripts and objects
+ * 
  *///-----------------------------------------------//

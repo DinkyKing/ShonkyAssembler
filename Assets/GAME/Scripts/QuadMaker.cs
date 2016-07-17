@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class BuildTemplate : MonoBehaviour {
+public class QuadMaker : MonoBehaviour {
 
     public GameObject Quad;
     Vector3 spawnPos = new Vector3(-5.0f,-5.0f,4.5f); // default pos

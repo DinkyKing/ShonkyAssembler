@@ -1,12 +1,15 @@
 using UnityEngine;
 using System.Collections;
 
-public class Crane : MonoBehaviour
+public class Spawner : MonoBehaviour
 {
-    public float craneSpeed = 1f;
-    public Vector3 playerPos = new Vector3(0, 7.5f, 2);
-
     public int blockType;
+
+	void Update()
+	{
+		drop();
+		selector();
+	}
 
     void selector()
     {
@@ -24,19 +27,9 @@ public class Crane : MonoBehaviour
     {
         if (Input.GetKeyDown("space"))
         {
-            Vector3 currentPos = new Vector3(playerPos.x, playerPos.y - 1, playerPos.z);
+            Vector3 currentPos = new Vector3(CraneMove.playerPos.x, CraneMove.playerPos.y - 1, CraneMove.playerPos.z);
             BlockAgent blockClone = new BlockAgent(currentPos, blockType); // make a clone and drop it
         }
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        float xPos = transform.position.x + (Input.GetAxis("Horizontal") * craneSpeed);
-        playerPos = new Vector3(Mathf.Clamp(xPos, -10.0f, 10.0f), 7.5f, 2f); // Clamp is the size of the floor
-        transform.position = playerPos;
-        drop();
-        selector();
     }
 
 }                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           

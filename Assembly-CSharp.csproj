@@ -45,21 +45,20 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\Atomic Nucleus\Nucleon.cs" />
-     <Compile Include="Assets\Atomic Nucleus\NucleonSpawner.cs" />
-     <Compile Include="Assets\FPSCounter.cs" />
-     <Compile Include="Assets\FPSDisplay.cs" />
-     <Compile Include="Assets\Notes.cs" />
-     <Compile Include="Assets\Scripts\BlockAgent.cs" />
-     <Compile Include="Assets\Scripts\BuildTemplate.cs" />
-     <Compile Include="Assets\Scripts\Crane.cs" />
-     <Compile Include="Assets\Scripts\Debugger.cs" />
-     <Compile Include="Assets\Scripts\DestroyOther.cs" />
-     <Compile Include="Assets\Scripts\GUIHud.cs" />
-     <Compile Include="Assets\Scripts\Init.cs" />
-     <Compile Include="Assets\Scripts\Menu.cs" />
-     <Compile Include="Assets\Scripts\RaycastMe.cs" />
-     <Compile Include="Assets\Scripts\SplashScreen.cs" />
+     <Compile Include="Assets\GAME\FPSCounter.cs" />
+     <Compile Include="Assets\GAME\FPSDisplay.cs" />
+     <Compile Include="Assets\GAME\Notes.cs" />
+     <Compile Include="Assets\GAME\Scripts\BlockAgent.cs" />
+     <Compile Include="Assets\GAME\Scripts\CraneMove.cs" />
+     <Compile Include="Assets\GAME\Scripts\Debugger.cs" />
+     <Compile Include="Assets\GAME\Scripts\DestroyOther.cs" />
+     <Compile Include="Assets\GAME\Scripts\GUIHud.cs" />
+     <Compile Include="Assets\GAME\Scripts\Init.cs" />
+     <Compile Include="Assets\GAME\Scripts\Menu.cs" />
+     <Compile Include="Assets\GAME\Scripts\QuadMaker.cs" />
+     <Compile Include="Assets\GAME\Scripts\RaycastMe.cs" />
+     <Compile Include="Assets\GAME\Scripts\Spawner.cs" />
+     <Compile Include="Assets\GAME\Scripts\SplashScreen.cs" />
      <None Include="Assets\ProjectSettings\ProjectVersion.txt" />
  <Reference Include="UnityEngine.UI">
  <HintPath>D:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
@@ -67,6 +66,10 @@
  <Reference Include="UnityEngine.Networking">
  <HintPath>D:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
  </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
+      <Project>{958D59EE-17A4-980B-E39D-17ADAD21F472}</Project>      <Name>Assembly-CSharp-firstpass</Name>    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
