@@ -45,6 +45,10 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Atomic Nucleus\Nucleon.cs" />
+     <Compile Include="Assets\Atomic Nucleus\NucleonSpawner.cs" />
+     <Compile Include="Assets\FPSCounter.cs" />
+     <Compile Include="Assets\FPSDisplay.cs" />
      <Compile Include="Assets\Notes.cs" />
      <Compile Include="Assets\Scripts\BlockAgent.cs" />
      <Compile Include="Assets\Scripts\BuildTemplate.cs" />

@@ -5,11 +5,11 @@ public class BuildTemplate : MonoBehaviour {
 
     public GameObject Quad;
     Vector3 spawnPos = new Vector3(-5.0f,-5.0f,4.5f); // default pos
-    float rot = 180; // rotation for raycast
+	float rot = 0; // rotation for raycast
 
     void SpawnTemplate() // Makes the shapes for the template
     {
-        for (int i = 0; i < 6; i++) // y axis
+        for (int i = 0; i < 10; i++) // y axis
         {
             spawnPos.x = -5.0f; // reset x
             spawnPos.y++;
