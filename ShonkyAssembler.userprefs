@@ -2,7 +2,13 @@
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
   <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Notes.cs">
     <Files>
-      <File FileName="Assets\Notes.cs" Line="12" Column="55" />
+      <File FileName="Assets\Scripts\Crane.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\Init.cs" Line="5" Column="36" />
+      <File FileName="Assets\Scripts\SplashScreen.cs" Line="3" Column="1" />
+      <File FileName="Assets\Scripts\Debugger.cs" Line="5" Column="2" />
+      <File FileName="Assets\Scripts\GUIHud.cs" Line="13" Column="2" />
+      <File FileName="Assets\Scripts\Menu.cs" Line="5" Column="36" />
+      <File FileName="Assets\Notes.cs" Line="17" Column="23" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

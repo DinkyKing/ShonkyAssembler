@@ -53,9 +53,13 @@
      <Compile Include="Assets\Scripts\BlockAgent.cs" />
      <Compile Include="Assets\Scripts\BuildTemplate.cs" />
      <Compile Include="Assets\Scripts\Crane.cs" />
+     <Compile Include="Assets\Scripts\Debugger.cs" />
      <Compile Include="Assets\Scripts\DestroyOther.cs" />
      <Compile Include="Assets\Scripts\GUIHud.cs" />
+     <Compile Include="Assets\Scripts\Init.cs" />
+     <Compile Include="Assets\Scripts\Menu.cs" />
      <Compile Include="Assets\Scripts\RaycastMe.cs" />
+     <Compile Include="Assets\Scripts\SplashScreen.cs" />
      <None Include="Assets\ProjectSettings\ProjectVersion.txt" />
  <Reference Include="UnityEngine.UI">
  <HintPath>D:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
