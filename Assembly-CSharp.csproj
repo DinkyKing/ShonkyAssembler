@@ -6,7 +6,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{C1D2C6CB-0AEB-D3D7-A236-00BF9C3E488F}</ProjectGuid>
+    <ProjectGuid>{81E43DBA-E1BB-ACD3-D6D4-707777004729}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -45,6 +45,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Notes.cs" />
      <Compile Include="Assets\Scripts\BlockAgent.cs" />
      <Compile Include="Assets\Scripts\BuildTemplate.cs" />
      <Compile Include="Assets\Scripts\Crane.cs" />
