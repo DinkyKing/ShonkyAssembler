@@ -18,4 +18,9 @@
  * 
  * Reorganised structure of game, through scripts and objects
  * 
+ * 
+ * Cleaned up all functions to work better and be clearer (No more pop ups in console)
+ * Massive Script overhaul, everything now works and is simplified (except Raycaster Script)
+ * 
+ * 
  *///-----------------------------------------------//

@@ -3,7 +3,12 @@ using System.Collections;
 
 public class Spawner : MonoBehaviour
 {
-    public int blockType;
+    public GameObject block; // default block
+
+    public GameObject square;
+    public GameObject rectangle;
+
+    Vector3 currentPos = new Vector3();
 
 	void Update()
 	{
@@ -13,13 +18,14 @@ public class Spawner : MonoBehaviour
 
     void selector()
     {
-        if (Input.GetKeyDown(KeyCode.E)) // cycle through objects
+        if (Input.GetKeyDown(KeyCode.Alpha1)) // cycle through objects
         {
-            blockType++;
+            block = square;
+            //GUIHud.BoxTexture = GUIHud.cubeT;
         }
-        if (Input.GetKeyDown(KeyCode.Q))
+        if (Input.GetKeyDown(KeyCode.Alpha2))
         {
-            blockType--;
+            block = rectangle;
         }
     }
 
@@ -27,8 +33,8 @@ public class Spawner : MonoBehaviour
     {
         if (Input.GetKeyDown("space"))
         {
-            Vector3 currentPos = new Vector3(CraneMove.playerPos.x, CraneMove.playerPos.y - 1, CraneMove.playerPos.z);
-            BlockAgent blockClone = new BlockAgent(currentPos, blockType); // make a clone and drop it
+            currentPos = new Vector3(CraneMove.playerPos.x, CraneMove.playerPos.y - 1, CraneMove.playerPos.z);
+            Instantiate(block, currentPos, Quaternion.identity);
         }
     }
 
