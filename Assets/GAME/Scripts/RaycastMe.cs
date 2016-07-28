@@ -15,9 +15,8 @@ public class RaycastMe : MonoBehaviour {
 
 	void showRay()
 	{
-		if (Physics.Raycast (transform.position, transform.forward, out hit, range)) {
-			Debug.Log ("ray hit object" + hit.transform.name);
-			Debug.DrawRay (transform.position, transform.forward, Color.red, 1);
+		if (Physics.Raycast (transform.position, transform.forward, out hit, range) && hit.rigidbody.velocity == Vector3.zero) {
+
 		} 
 	}
 }

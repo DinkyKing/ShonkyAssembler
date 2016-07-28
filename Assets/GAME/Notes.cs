@@ -22,5 +22,8 @@
  * Cleaned up all functions to work better and be clearer (No more pop ups in console)
  * Massive Script overhaul, everything now works and is simplified (except Raycaster Script)
  * 
+ *GUIhud is now Working
+ *Raycaster now only detects when object has no velocity and no longer lags
+ * 
  * 
  *///-----------------------------------------------//

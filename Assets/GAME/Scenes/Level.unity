@@ -109,7 +109,7 @@ TextMesh:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 127905753}
-  m_Text: 'VB 010
+  m_Text: 'VB 011
 
 '
   m_OffsetZ: 0
@@ -537,6 +537,10 @@ Prefab:
       propertyPath: m_Enabled
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 11490956, guid: c99e6cd2986272e4484d59dad6196932, type: 2}
+      propertyPath: Quad
+      value: 
+      objectReference: {fileID: 120972, guid: c13cf52ae3b28e84d8fa45be205a1999, type: 2}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: c99e6cd2986272e4484d59dad6196932, type: 2}
   m_IsPrefabParent: 0

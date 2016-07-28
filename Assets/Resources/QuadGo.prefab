@@ -29,7 +29,7 @@ GameObject:
   - 33: {fileID: 3377004}
   - 64: {fileID: 6484752}
   - 23: {fileID: 2305084}
-  - 114: {fileID: 11447628}
+  - 114: {fileID: 11404150}
   m_Layer: 0
   m_Name: Quad
   m_TagString: Untagged
@@ -152,7 +152,7 @@ MeshCollider:
   serializedVersion: 2
   m_Convex: 0
   m_Mesh: {fileID: 10210, guid: 0000000000000000e000000000000000, type: 0}
---- !u!114 &11447628
+--- !u!114 &11404150
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}

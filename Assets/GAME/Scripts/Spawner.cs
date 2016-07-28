@@ -21,7 +21,6 @@ public class Spawner : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.Alpha1)) // cycle through objects
         {
             block = square;
-            //GUIHud.BoxTexture = GUIHud.cubeT;
         }
         if (Input.GetKeyDown(KeyCode.Alpha2))
         {
