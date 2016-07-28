@@ -25,5 +25,7 @@
  *GUIhud is now Working
  *Raycaster now only detects when object has no velocity and no longer lags
  * 
+ *Added Unity Analytics
+ * 
  * 
  *///-----------------------------------------------//

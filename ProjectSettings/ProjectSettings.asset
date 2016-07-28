@@ -417,8 +417,12 @@ PlayerSettings:
   boolPropertyNames:
   - XboxOne::enus
   XboxOne::enus: 1
-  stringPropertyNames: []
-  cloudProjectId: 
-  projectName: 
-  organizationId: 
+  stringPropertyNames:
+  - Build_ServiceEnabled::Build_ServiceEnabled
+  - UNet_ServiceEnabled::UNet_ServiceEnabled
+  Build_ServiceEnabled::Build_ServiceEnabled: False
+  UNet_ServiceEnabled::UNet_ServiceEnabled: True
+  cloudProjectId: fda877a4-1972-4f07-a9ec-c9fc00f0db36
+  projectName: TheShonkyAssembler
+  organizationId: josh-1822640
   cloudEnabled: 0
