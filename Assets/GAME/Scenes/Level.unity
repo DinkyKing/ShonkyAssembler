@@ -109,7 +109,7 @@ TextMesh:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 127905753}
-  m_Text: 'VB 012
+  m_Text: 'VB 013
 
 '
   m_OffsetZ: 0
@@ -415,6 +415,7 @@ GameObject:
   - 65: {fileID: 808548150}
   - 23: {fileID: 808548149}
   - 54: {fileID: 808548154}
+  - 114: {fileID: 808548153}
   m_Layer: 0
   m_Name: Floor
   m_TagString: Untagged
@@ -479,6 +480,17 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1017268746}
   m_RootOrder: 0
+--- !u!114 &808548153
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 808548148}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8584e5ab14a21e34fad12a91056963cd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!54 &808548154
 Rigidbody:
   m_ObjectHideFlags: 0

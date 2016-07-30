@@ -8,8 +8,6 @@ public class GUIHud : MonoBehaviour
     public Texture2D cubeT;
     public Texture2D beamT;
 
-
-
     void Update()
     {
         if (Input.GetKeyDown(KeyCode.Alpha1)) // cycle through objects

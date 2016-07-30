@@ -81,12 +81,11 @@
     <Compile Include="Assets\GAME\FPSCounter.cs" />
     <Compile Include="Assets\GAME\FPSDisplay.cs" />
     <Compile Include="Assets\GAME\Notes.cs" />
-    <Compile Include="Assets\GAME\Scripts\BlockAgent.cs" />
     <Compile Include="Assets\GAME\Scripts\CraneMove.cs" />
     <Compile Include="Assets\GAME\Scripts\Debugger.cs" />
-    <Compile Include="Assets\GAME\Scripts\DestroyOther.cs" />
     <Compile Include="Assets\GAME\Scripts\GUIHud.cs" />
     <Compile Include="Assets\GAME\Scripts\Init.cs" />
+    <Compile Include="Assets\GAME\Scripts\KinCollider.cs" />
     <Compile Include="Assets\GAME\Scripts\Menu.cs" />
     <Compile Include="Assets\GAME\Scripts\QuadMaker.cs" />
     <Compile Include="Assets\GAME\Scripts\RaycastMe.cs" />

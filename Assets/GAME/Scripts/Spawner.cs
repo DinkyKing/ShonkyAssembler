@@ -10,11 +10,11 @@ public class Spawner : MonoBehaviour
 
     Vector3 currentPos = new Vector3();
 
-	void Update()
+    void Update()
 	{
-		drop();
+        drop();
 		selector();
-	}
+    }
 
     void selector()
     {
@@ -30,11 +30,14 @@ public class Spawner : MonoBehaviour
 
     void drop() // The shape dropper 
     {
-        if (Input.GetKeyDown("space"))
+        if (Input.GetKeyDown("space") && KinCollider.hasStopped == false)
         {
             currentPos = new Vector3(CraneMove.playerPos.x, CraneMove.playerPos.y - 1, CraneMove.playerPos.z);
             Instantiate(block, currentPos, Quaternion.identity);
+            Debug.Log(block.GetComponent<Rigidbody>().velocity);
+            KinCollider.hasStopped = true;
         }
+       
     }
 
-}                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           
+}

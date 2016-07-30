@@ -26,6 +26,6 @@
  *Raycaster now only detects when object has no velocity and no longer lags
  * 
  *Added Unity Analytics
- * 
+ *Drop now has timer and collision detection to stop physics
  * 
  *///-----------------------------------------------//
