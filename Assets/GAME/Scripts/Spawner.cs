@@ -30,12 +30,12 @@ public class Spawner : MonoBehaviour
 
     void drop() // The shape dropper 
     {
-        if (Input.GetKeyDown("space") && KinCollider.hasStopped == false)
+        if (Input.GetKeyDown("space") && KinCollider.hasStopped == true)
         {
             currentPos = new Vector3(CraneMove.playerPos.x, CraneMove.playerPos.y - 1, CraneMove.playerPos.z);
             Instantiate(block, currentPos, Quaternion.identity);
-            Debug.Log(block.GetComponent<Rigidbody>().velocity);
-            KinCollider.hasStopped = true;
+            KinCollider.hasRolling = true;
+            KinCollider.hasStopped = false;
         }
        
     }

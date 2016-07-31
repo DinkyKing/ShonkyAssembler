@@ -23,14 +23,8 @@ public class QuadMaker : MonoBehaviour {
         
     }
 
-    void levelRef() // The game referee checks score and level progression
-    {
-        
-    }
-
 	// Use this for initialization
 	void Start () {
         SpawnTemplate();
-        levelRef();
 	}
 }
