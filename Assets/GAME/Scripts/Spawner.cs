@@ -34,6 +34,7 @@ public class Spawner : MonoBehaviour
         {
             currentPos = new Vector3(CraneMove.playerPos.x, CraneMove.playerPos.y - 1, CraneMove.playerPos.z);
             Instantiate(block, currentPos, Quaternion.identity);
+            ScoreBoard.gameScore += 100;
             KinCollider.hasRolling = true;
             KinCollider.hasStopped = false;
         }

@@ -4,10 +4,13 @@ using UnityEngine.UI;
 
 public class ScoreDisplayUI : MonoBehaviour {
 
-   // public Text myScore = "Hello";
-    
+    public Text myScore;
+    public Text myLives;
+   
     void Update()
     {
-        //myScore.Text = "Helloooo";
+        
+        myScore.text = ScoreBoard.gameScore.ToString();
+        myLives.text = ScoreBoard.gameLives.ToString();
     }
 }
