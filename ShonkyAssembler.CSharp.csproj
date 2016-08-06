@@ -61,14 +61,17 @@
     <Reference Include="UnityEngine.Analytics">
       <HintPath>Library\UnityAssemblies\UnityEngine.Analytics.dll</HintPath>
     </Reference>
+    <Reference Include="UnityEngine.Analytics">
+      <HintPath>Library\UnityAssemblies\UnityEngine.Analytics.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Networking">
+      <HintPath>Library\UnityAssemblies\UnityEngine.Networking.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UI">
+      <HintPath>Library\UnityAssemblies\UnityEngine.UI.dll</HintPath>
+    </Reference>
     <Reference Include="UnityEditor">
       <HintPath>Library\UnityAssemblies\UnityEditor.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.Cloud.Analytics">
-      <HintPath>Assets\Plugins\UnityEngine.Cloud.Analytics.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.Cloud.Analytics.Util">
-      <HintPath>Assets\Plugins\UnityEngine.Cloud.Analytics.Util.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
@@ -89,6 +92,8 @@
     <Compile Include="Assets\GAME\Scripts\Menu.cs" />
     <Compile Include="Assets\GAME\Scripts\QuadMaker.cs" />
     <Compile Include="Assets\GAME\Scripts\RaycastMe.cs" />
+    <Compile Include="Assets\GAME\Scripts\ScoreBoard.cs" />
+    <Compile Include="Assets\GAME\Scripts\ScoreDisplayUI.cs" />
     <Compile Include="Assets\GAME\Scripts\Spawner.cs" />
     <Compile Include="Assets\GAME\Scripts\SplashScreen.cs" />
   </ItemGroup>
