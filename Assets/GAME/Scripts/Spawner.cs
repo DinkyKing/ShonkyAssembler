@@ -8,12 +8,15 @@ public class Spawner : MonoBehaviour
     public GameObject square;
     public GameObject rectangle;
 
+    public int i = 0;
+
     Vector3 currentPos = new Vector3();
 
     void Update()
 	{
         drop();
 		selector();
+        Debug.Log(block.transform.rotation);
     }
 
     void selector()
@@ -34,9 +37,11 @@ public class Spawner : MonoBehaviour
         {
             currentPos = new Vector3(CraneMove.playerPos.x, CraneMove.playerPos.y - 1, CraneMove.playerPos.z);
             Instantiate(block, currentPos, Quaternion.identity);
+            block.name = "block00" + i;
             ScoreBoard.gameScore += 100;
             KinCollider.hasRolling = true;
             KinCollider.hasStopped = false;
+            i++;
         }
        
     }
